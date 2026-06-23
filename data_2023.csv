@@ -1,0 +1,6 @@
+,VendorID,PUDatetime,DODatetime,passenger_count,trip_distance,RatecodeID,store_and_fwd_flag,PULocationID,DOLocationID,payment_type,fare_amount,extra,mta_tax,tip_amount,tolls_amount,improvement_surcharge,total_amount,congestion_surcharge,airport_fee,taxi_type,ehail_fee,trip_type,hvfhs_license_num,dispatching_base_num,originating_base_num,request_datetime,on_scene_datetime,trip_miles,trip_time,base_passenger_fare,tolls,bcf,sales_tax,tips,driver_pay,shared_request_flag,shared_match_flag,access_a_ride_flag,wav_request_flag,wav_match_flag
+0,2,2023-01-01 00:32:10,2023-01-01 00:40:36,1,0.97,1,N,161,141,2,9.3,1.0,0.5,0.0,0.0,1.0,14.3,2.5,0.0,yellow_taxi,,,,,,,,,,,,,,,,,,,,
+1,2,2023-01-01 00:55:08,2023-01-01 01:01:27,1,1.1,1,N,43,237,1,7.9,1.0,0.5,4.0,0.0,1.0,16.9,2.5,0.0,yellow_taxi,,,,,,,,,,,,,,,,,,,,
+2,2,2023-01-01 00:25:04,2023-01-01 00:37:49,1,2.51,1,N,48,238,1,14.9,1.0,0.5,15.0,0.0,1.0,34.9,2.5,0.0,yellow_taxi,,,,,,,,,,,,,,,,,,,,
+3,1,2023-01-01 00:03:48,2023-01-01 00:13:25,0,1.9,1,N,138,7,1,12.1,7.25,0.5,0.0,0.0,1.0,20.84,0.0,1.25,yellow_taxi,,,,,,,,,,,,,,,,,,,,
+4,2,2023-01-01 00:10:29,2023-01-01 00:21:19,1,1.43,1,N,107,79,1,11.4,1.0,0.5,3.28,0.0,1.0,19.69,2.5,0.0,yellow_taxi,,,,,,,,,,,,,,,,,,,,
