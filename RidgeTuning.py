@@ -30,6 +30,7 @@ for file in datasets:
     df = df.rename(columns={df.columns[1]:"date"})
     df["year"] = df["year"].map({2023: 0, 2024: 1})
     df = df.drop(columns=["DOLocationID", "PULocationID"], errors="ignore")
+    df = df.drop(columns=["precipitation"], errors='ignore')
     df = df.dropna()
 
     df_test = df[df["date"]>=test_set_start].copy()
