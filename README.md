@@ -1,5 +1,5 @@
 # Bachelor Thesis
-This repository contains the source code and supplementary materials for the bachelor's thesis with the title <br>"Analysis and prediction of urban mobility patterns: Comparing Machine Learning algorithms on New York City taxi trip data" <br> written by Florian Ivan Hinrichsen during the summer semester of 2026.
+This repository contains the source code and supplementary materials for the bachelor's thesis with the title <br>"Analysis and prediction of urban mobility patterns: Comparing Machine Learning algorithms on New York City taxi trip data" <br> written by Florian Ivan Hinrichsen during the summer semester of 2026 at the University of Kiel.
 ## Repository Overview
 - **Data Pipeline** <br> This folder contains the complete source code used for the initial data preprocessing phase as well as the subsequent model training. The dataset creation files are provided to establish methodological transparency, but are not reproducable. The model training scripts are designed so that the results can be seamlessly reproduced.
 - **Evaluation** <br> This folder provides the complete codebase utilized to generate the evaluation graphs and assess model performance, designed specifically so that the entire evaluation process is completely reproducible.
@@ -44,5 +44,5 @@ To reproduce the model training process, execute the `ModelTraining.ipynb` noteb
 ### 5. Evaluation
 To reproduce the model evaluation, execute the notebooks located within the `Evaluation` folder. These files automatically download the pre-trained models from Kaggle and generate the predictions, requiring no manual setup.
 ## Author
-### Florian Ivan Hinrichsen
-**Contact**: hinrichsenf@googlemail.com / [GitHub](https://github.com/floivanhin) / [LinkedIn](www.linkedin.com/in/florian-hinrichsen-9a6251336)
+**Florian Ivan Hinrichsen** <br>
+- **Contact**: hinrichsenf@googlemail.com / [GitHub](https://github.com/floivanhin) / [LinkedIn](www.linkedin.com/in/florian-hinrichsen-9a6251336)
