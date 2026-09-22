@@ -15,3 +15,5 @@ To reproduce the model training, evaluation, and visual figures, ensure your env
 ### 2. Software & Python Environment
 * **Python Version:** Python 3.10 or higher.
 * It is strongly recommended to set up an isolated virtual environment.
+## Suggested Workflow
+
