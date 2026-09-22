@@ -42,3 +42,4 @@ To reproduce the model training process, execute the `ModelTraining.ipynb` noteb
 >**Note on Model Training**
 > You can safely skip this step and proceed directly to the evaluation as the trained models are provided through dedicated Kaggle datasets
 ### 5. Evaluation
+To reproduce the model evaluation, execute the notebooks located within the `Evaluation` folder. These files automatically download the pre-trained models from Kaggle and generate the predictions, requiring no manual setup.
