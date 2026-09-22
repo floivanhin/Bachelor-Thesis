@@ -1,1 +1,6 @@
 # Bachelor-Thesis: "Analysis and prediction of urban mobility patterns: Comparing Machine Learning algorithms on New York City taxi trip data"
+This repository contains the source code and supplementary materials for the bachelor's thesis written by Florian Ivan Hinrichsen during the summer semester of 2026.
+## Repository Structure
+- Data Pipeline <br> This folder contains the complete source code used for the initial data preprocessing phase as well as the subsequent model training. The dataset creation files are provided to establish methodological transparency, but are not reproducable. The model training scripts are designed so that the results can be seamlessly reproduced.
+- Evaluation <br> This folder provides the complete codebase utilized to generate the evaluation graphs and assess model performance, designed specifically so that the entire evaluation process is completely reproducible.
+- Plot Generation <br> This folder contains the scripts used to create the figures for the exploratory data analysis, alongside specific evaluation plots. It provides the scripts used to plot the general evaluation results, visualize the training loss curves, and map out the 6-fold cross-validation methodology, with all scripts explicitly designed to be completely reproducible.
