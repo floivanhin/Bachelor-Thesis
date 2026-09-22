@@ -1,5 +1,5 @@
-# Bachelor-Thesis: "Analysis and prediction of urban mobility patterns: Comparing Machine Learning algorithms on New York City taxi trip data"
-This repository contains the source code and supplementary materials for the bachelor's thesis written by Florian Ivan Hinrichsen during the summer semester of 2026.
+# Bachelor Thesis
+This repository contains the source code and supplementary materials for the bachelor's thesis with the title "Analysis and prediction of urban mobility patterns: Comparing Machine Learning algorithms on New York City taxi trip data" written by Florian Ivan Hinrichsen during the summer semester of 2026.
 ## Repository Structure
 - Data Pipeline <br> This folder contains the complete source code used for the initial data preprocessing phase as well as the subsequent model training. The dataset creation files are provided to establish methodological transparency, but are not reproducable. The model training scripts are designed so that the results can be seamlessly reproduced.
 - Evaluation <br> This folder provides the complete codebase utilized to generate the evaluation graphs and assess model performance, designed specifically so that the entire evaluation process is completely reproducible.
@@ -11,7 +11,7 @@ To reproduce the model training, evaluation, and visual figures, ensure your env
 ### 1. Hardware Requirements
 * **RAM:** Minimum 16 GB (32 GB recommended). Processing large tabular batches and fitting ensemble models like Random Forest requires substantial memory headroom.
 * **Storage:** At least 10–20 GB of free disk space for processed datasets, saved model checkpoints, and evaluation figures. (Note: reproducing the raw data ingestion pipeline requires significantly more space for raw Parquet files).
-* **Compute / GPU:** A CUDA-compatible GPU is recommended to accelerate Feedforward Neural Network (FFNN) training, though CPU execution is supported.
+* **Compute / GPU:** A CUDA-compatible NVIDIA GPU is strongly recommended. While the Feedforward Neural Network (FFNN) training supports CPU execution, reproducing the Random Forest models strictly requires an NVIDIA GPU due to the RAPIDS (cuml) dependency. (Executing the training notebook in a Google Colab instance with a free T4 GPU is fully sufficient).
 ### 2. Software & Python Environment
 * **Python Version:** Python 3.10 or higher.
 * It is strongly recommended to set up an isolated virtual environment.
