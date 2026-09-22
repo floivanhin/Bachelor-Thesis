@@ -3,7 +3,7 @@ This repository contains the source code and supplementary materials for the bac
 ## Repository Structure
 - **Data Pipeline** <br> This folder contains the complete source code used for the initial data preprocessing phase as well as the subsequent model training. The dataset creation files are provided to establish methodological transparency, but are not reproducable. The model training scripts are designed so that the results can be seamlessly reproduced.
 - **Evaluation** <br> This folder provides the complete codebase utilized to generate the evaluation graphs and assess model performance, designed specifically so that the entire evaluation process is completely reproducible.
-- **Plot Generation** <br> This folder contains the scripts used to create the figures for the exploratory data analysis, alongside specific evaluation plots. It provides the scripts used to plot the general evaluation results, visualize the training loss curves, and map out the 6-fold cross-validation methodology, with all scripts explicitly designed to be completely reproducible.
+- **Plot Generation** <br> This folder contains the scripts used to create the figures for the exploratory data analysis. It also provides the script used to map out the 6-fold cross-validation methodology, with all scripts explicitly designed to be completely reproducible.
 > **Note on Code Documentation:** 
 > Because some of the scripts for data preprocessing, evaluation, and plot generation share a highly similar structure across different datasets and models, redundant comments have been omitted. The detailed comments provided in the first scripts apply analogously to the rest of the codebase.
 ## Prerequisites & Software
