@@ -38,7 +38,7 @@ To reproduce the exploratory data analysis, navigate to the `Plot Generation` fo
 - `Distributions.ipynb`
 - `Timeseries.ipynb`
 ### 4. Model Training
-To reproduce the model training process, execute the `ModelTraining.ipynb` notebook located in the Data Pipeline folder. Please be aware that training the Feedforward Neural Network may take multiple days to complete due to the large size of the dataset.
+To reproduce the model training process, execute the `ModelTraining.ipynb` notebook located in the `Data Pipeline` folder. Please be aware that training the Feedforward Neural Network may take multiple days to complete due to the large size of the dataset.
 >**Note on Model Training**
 > You can safely skip this step and proceed directly to the evaluation as the trained models are provided through dedicated Kaggle datasets
 ### 5. Evaluation
