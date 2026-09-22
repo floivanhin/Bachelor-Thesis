@@ -30,7 +30,8 @@ pip install -r requirements.txt
 > **Note on Data Preprocessing:**  
 > The complete preprocessing pipeline is included for full transparency and code audit purposes in the `Data Pipeline` folder. This includes the `DataPreProcessing.ipynb` notebook and the associated `DataPreparation*.py` scripts. However, **preprocessing is not required to reproduce the results**. The finalized, preprocessed datasets are made publicly available through Kaggle (`https://www.kaggle.com/datasets/florianhinrichsen/nyc-taxi-data-2023-24`), allowing you to proceed directly to the data analysis, model training and evaluation.
 ### 2. Data Aquisition
-The relevant datasets and pre-trained models are hosted on Kaggle. At the top of each notebook, a dedicated cell utilizes the Kagglehub API to automatically download the necessary files, requiring no manual download.
+The relevant datasets and pre-trained models are hosted on Kaggle. At the top of each notebook, a dedicated cell utilizes the Kagglehub API to automatically download the necessary files, requiring no manual download. <br> If you wish to manually inspect the datasets or trained models, you can view and download them directly from my Kaggle profile. <br>
+**Kaggle Profile & Datasets:** https://www.kaggle.com/florianhinrichsen/datasets
 ### 3. Data Analysis
 To reproduce the exploratory data analysis, navigate to the `Plot Generation` folder and execute the following notebooks:
 - `CorrelationHeatmap.ipynb`
