@@ -44,5 +44,5 @@ To reproduce the model training process, execute the `ModelTraining.ipynb` noteb
 ### 5. Evaluation
 To reproduce the model evaluation, execute the notebooks located within the `Evaluation` folder. These files automatically download the pre-trained models from Kaggle and generate the predictions, requiring no manual setup.
 ## Author
-**Florian Ivan Hinrichsen** <br>
-Contact: hinrichsenf@googlemail.com / [GitHub](https://github.com/floivanhin) / [LinkedIn](www.linkedin.com/in/florian-hinrichsen-9a6251336)
+### Florian Ivan Hinrichsen
+**Contact**: hinrichsenf@googlemail.com / [GitHub](https://github.com/floivanhin) / [LinkedIn](www.linkedin.com/in/florian-hinrichsen-9a6251336)
