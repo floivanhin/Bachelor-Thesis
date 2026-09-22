@@ -14,7 +14,7 @@ To reproduce the model training, evaluation, and visual figures, ensure your env
 - **Compute / GPU:** A CUDA-compatible NVIDIA GPU is strongly recommended. While the Feedforward Neural Network (FFNN) training supports CPU execution, reproducing the Random Forest models strictly requires an NVIDIA GPU due to the RAPIDS (cuml) dependency. (Executing the training notebook in a Google Colab instance with a free T4 GPU is fully sufficient).
 ### 2. Software & Python Environment
 - **Python Version:** Python 3.10 or higher.
-- It is strongly recommended to set up an isolated virtual environment.
+- It is recommended to set up an isolated virtual environment.
 ## Suggested Workflow
 The recommended workflow for this project looks like this:
 ### 1. Environment Setup
